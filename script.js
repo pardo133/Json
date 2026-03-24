@@ -1,14 +1,21 @@
-const inventarioTiendac = [{
+const inventarioTienda = [{
 titulo: "Fifa"
-titulo: "GTA"
-titulo: "Tekken", 
-precio: "20"
-precio: "40"
+genero: ["deporte", "multijugador"]
 precio: "60"
 esDigital: "true"
-esDigital: "false"
-genero: ["deporte"]
-genero: ["lucha"]
-genero: ["accion"]
-}]
 
+}
+{
+titulo: "GTA"
+esDigital: "true"
+genero: ["accion", "online"]
+precio: "40"
+esDigital: "false"
+}
+{
+titulo: "Tekken"
+precio: "20"
+genero: ["lucha", "facil"]
+esDigital: "false"
+}]
+console.log(inventarioTienda)
